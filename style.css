@@ -1,67 +1,100 @@
-/* styles.css */
+/* General styles for the page */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
+/* Header styles */
 header {
-    background: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #007BFF;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+header nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+header nav ul li {
+  display: inline;
+  margin-right: 15px;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
+header nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-main {
-    padding: 20px;
+/* Hero section styles */
+#hero {
+  background-color: #eaf4fc;
+  text-align: center;
+  padding: 50px;
 }
 
-section {
-    margin: 20px 0;
-    padding: 20px;
-    background: white;
-    border: 1px solid #ccc;
+.cta-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-.projects {
-    display: flex;
-    flex-wrap: wrap;
+/* Services section styles */
+#services {
+  background-color: white;
+  padding: 40px;
 }
 
-.project {
-    flex: 1 1 30%; /* Adjust width for responsiveness */
-    margin: 10px;
-    padding: 15px;
-    background: #e2e2e2;
-    border: 1px solid #ccc;
+#services .service {
+  margin-bottom: 20px;
 }
 
-.project img {
-    max-width: 100%; /* Responsive image */
+#services h3 {
+  color: #007BFF;
 }
 
+/* Contact form styles */
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact form label {
+  display: block;
+  margin-top: 10px;
+}
+
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+#contact form button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer styles */
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer .social-links a {
+  color: white;
+  margin: 0 5px;
+  text-decoration: none;
 }
