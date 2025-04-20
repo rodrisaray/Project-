@@ -98,3 +98,19 @@ footer .social-links a {
   margin: 0 5px;
   text-decoration: none;
 }
+
+/* Tablets */
+@media (min-width: 601px) {
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+}
+
+/* Desktops and larger screens */
+@media (min-width: 901px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
